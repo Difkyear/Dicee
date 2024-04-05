@@ -7,7 +7,7 @@ document.querySelector(".img2").setAttribute("src", img2);
 if (player1 > player2) {
   document.querySelector("h1").textContent = "👍Player 1 Win!";
 } else if (player1 === player2) {
-  document.querySelector("h1").textContent = "you both equal ,play againg";
+  document.querySelector("h1").textContent = "Draw";
 } else {
   document.querySelector("h1").textContent = "👍Player 2 Win!";
 }
